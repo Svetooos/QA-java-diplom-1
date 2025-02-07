@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class IngredientTest {
 
     @Test
-    public void createIngredientTest() {
+    public void createIngredient() {
         Ingredient ingredient = new Ingredient(IngredientType.SAUCE, "Тест", 2.0F);
         assertEquals(IngredientType.SAUCE, ingredient.getType());
         assertEquals("Тест", ingredient.getName());
